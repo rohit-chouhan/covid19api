@@ -8,7 +8,7 @@ All the functions in this framework are created in pure node.js, and the API run
 
 ### Install with NPM
 ```sh
-$ npm i covid19api
+$ npm i covid19apis
 ```
 
 #### 🌎 By Worldwide Cases
@@ -20,8 +20,8 @@ worlddeaths() | returns worldwide deaths cases | no
 
 Example:-
 ```js
-const covid19 = require('covid19api');
-covid19.worldconfirmed(function(result){
+const covid19apis = require('covid19apis');
+covid19apis.worldconfirmed(function(result){
 	console.log("Worldwide Confirmed Cases: "+ result);
 });
 ```
@@ -36,9 +36,9 @@ deaths() | returns country's deaths cases | `country ISO Code`
 
 Example:-
 ```js
-const covid19 = require('covid19api');
+const covid19apis = require('covid19apis');
 //INDIA ISO CODE (IN)
-covid19.confirmed('IN',function(result){
+covid19apis.confirmed('IN',function(result){
 	console.log("India's Confirmed Cases: "+ result);
 });
 ```
@@ -53,9 +53,9 @@ stateactive() | returns country's state active cases | `country ISO Code`, `Stat
 
 Example:-
 ```js
-const covid19 = require('covid19api');
+const covid19apis = require('covid19apis');
 //INDIA ISO CODE (IN), State Name
-covid19.stateconfirmed('IN','Rajasthan',function(result){
+covid19apis.stateconfirmed('IN','Rajasthan',function(result){
 	console.log("Rajasthan, India's Confirmed Cases: "+ result);
 });
 ```
