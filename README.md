@@ -21,7 +21,7 @@ worldrecovered() | returns worldwide recovered cases | no
 worlddeaths() | returns worldwide deaths cases | no
 
 Example:-
-```nodejs
+```js
 const covid19 = require('covid19api');
 covid19.worldconfirmed(function(result){
 	console.log("Worldwide Confirmed Cases: "+ result);
@@ -37,7 +37,7 @@ recovered() | returns country's recovered cases | `country ISO Code`
 deaths() | returns country's deaths cases | `country ISO Code`
 
 Example:-
-```nodejs
+```js
 const covid19 = require('covid19api');
 //INDIA ISO CODE (IN)
 covid19.confirmed('IN',function(result){
@@ -54,7 +54,7 @@ statedeaths() | returns country's state deaths cases | `country ISO Code`, `Stat
 stateactive() | returns country's state active cases | `country ISO Code`, `State name`
 
 Example:-
-```nodejs
+```js
 const covid19 = require('covid19api');
 //INDIA ISO CODE (IN), State Name
 covid19.stateconfirmed('IN','Rajasthan',function(result){
