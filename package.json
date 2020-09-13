@@ -1,6 +1,6 @@
 {      
  "name": "covid19api",                                    
- "version": "1.0.0",                                                    
+ "version": "1.0.2",                                                    
  "description": "Open Source node.js Framework for live covid19 cases by worldwide, county & states",                             
  "main": "covid19api.js",                                                
  "scripts": {                                                             
