@@ -1,0 +1,23 @@
+{      
+ "name": "covid19api",                                    
+ "version": "1.0.0",                                                    
+ "description": "Open Source node.js Framework for live covid19 cases by worldwide, county & states",                             
+ "main": "covid19api.js",                                                
+ "scripts": {                                                             
+   "test": "echo \"Error: no test specified\" && exit 1"              
+ },                                                                         
+ "keywords": [                                                            
+  "covid19"," covid19api"," api"," coronavirus"," corona"," corona api"," rest api"," coronavrius api"                                                                 
+ ],                                                                         
+ "author": "Rohit Chouhan",                                             
+ "license": "MIT",                                                      
+ "repository": {                                                         
+    "type": "git",                                                     
+     "url": "git+https://github.com/rohit-chouhan/covid19api.git"          
+ },                                                                         
+ "bugs": {                                                               
+    "url": "https://github.com/rohit-chouhan/covid19api/issues"           
+ },                                                                        
+  "homepage": "https://github.com/rohit-chouhan/covid19api#readme",      
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }    
+  }
