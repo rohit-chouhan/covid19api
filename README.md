@@ -13,6 +13,55 @@ $ npm i covid19api
 $ npm i covid19
 ```
 
+#### 🌎 By Worldwide Cases
+Method | Use | parameters
+---|---|---
+worldconfirmed() | returns worldwide confirmed cases | no
+worldrecovered() | returns worldwide recovered cases | no
+worlddeaths() | returns worldwide deaths cases | no
+Example:-
+```nodejs
+const covid19 = require('covid19api');
+covid19.worldconfirmed(function(result){
+	console.log("Worldwide Confirmed Cases: "+ result);
+});
+```
+#### 🌎 By Countries Cases
+Read this wikipedia page to get all countries ISO Code 👉 [CLICK ME](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
+
+Method | Use | parameters
+---|---|---
+confirmed() | returns country's confirmed cases | `country ISO Code`
+recovered() | returns country's recovered cases | `country ISO Code`
+deaths() | returns country's deaths cases | `country ISO Code`
+Example:-
+```nodejs
+const covid19 = require('covid19api');
+//INDIA ISO CODE (IN)
+covid19.confirmed('IN',function(result){
+	console.log("India's Confirmed Cases: "+ result);
+});
+```
+#### 🌎 By Country's State Cases
+
+Method | Use | parameters
+---|---|---
+stateconfirmed() | returns country's state confirmed cases | `country ISO Code`, `State name`
+staterecovered() | returns country's state recovered cases | `country ISO Code`, `State name`
+statedeaths() | returns country's state deaths cases | `country ISO Code`, `State name`
+stateactive() | returns country's state active cases | `country ISO Code`, `State name`
+Example:-
+```nodejs
+const covid19 = require('covid19api');
+//INDIA ISO CODE (IN), State Name
+covid19.stateconfirmed('IN','Rajasthan',function(result){
+	console.log("Rajasthan, India's Confirmed Cases: "+ result);
+});
+```
+
+#### 🌎 By Country's State City Cases
+_Right now our team is working on it, but we will publish this feature soon._.
+
 ### Developers
 ![Rohit](http://graph.facebook.com/100004453384015/picture?type=square)\
 Developed by [Rohit Chouhan](https://rohitchouhan.com),  MIT License, Contact me for any implementation or inquiry.
