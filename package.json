@@ -1,8 +1,8 @@
 {      
- "name": "covid19api",                                    
+ "name": "covid19apis",                                    
  "version": "1.0.2",                                                    
  "description": "Open Source node.js Framework for live covid19 cases by worldwide, county & states",                             
- "main": "covid19api.js",                                                
+ "main": "covid19apis.js",                                                
  "scripts": {                                                             
    "test": "echo \"Error: no test specified\" && exit 1"              
  },                                                                         
@@ -19,5 +19,5 @@
     "url": "https://github.com/rohit-chouhan/covid19api/issues"           
  },                                                                        
   "homepage": "https://github.com/rohit-chouhan/covid19api#readme",      
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }    
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@rohit-chouhan" }    
   }
