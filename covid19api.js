@@ -2,7 +2,7 @@
 //Author: Rohit Chouhan
 //https://github.com/rohit-chouhan
 
-var request = require('request');
+var request = require('../request');
 
 //---------- World ---------------------
 
