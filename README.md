@@ -19,6 +19,7 @@ Method | Use | parameters
 worldconfirmed() | returns worldwide confirmed cases | no
 worldrecovered() | returns worldwide recovered cases | no
 worlddeaths() | returns worldwide deaths cases | no
+
 Example:-
 ```nodejs
 const covid19 = require('covid19api');
@@ -34,6 +35,7 @@ Method | Use | parameters
 confirmed() | returns country's confirmed cases | `country ISO Code`
 recovered() | returns country's recovered cases | `country ISO Code`
 deaths() | returns country's deaths cases | `country ISO Code`
+
 Example:-
 ```nodejs
 const covid19 = require('covid19api');
@@ -50,6 +52,7 @@ stateconfirmed() | returns country's state confirmed cases | `country ISO Code`,
 staterecovered() | returns country's state recovered cases | `country ISO Code`, `State name`
 statedeaths() | returns country's state deaths cases | `country ISO Code`, `State name`
 stateactive() | returns country's state active cases | `country ISO Code`, `State name`
+
 Example:-
 ```nodejs
 const covid19 = require('covid19api');
