@@ -6,12 +6,9 @@ All the functions in this framework are created in pure node.js, and the API run
 
  __Note__: _You have to install [request package ](https://www.npmjs.com/package/request) also in your project_.
 
-### Install (try any one)
+### Install with NPM
 ```sh
 $ npm i covid19api
-```
-```sh
-$ npm i covid19
 ```
 
 #### 🌎 By Worldwide Cases
