@@ -4,7 +4,7 @@ Open Source node.js Framework for live covid19 cases by worldwide, county &amp; 
 
 All the functions in this framework are created in pure node.js, and the API running in its backend is used by [@mathdroid/covid-19-api](https://github.com/mathdroid/covid-19-api), whatever coronavirus cases are used in this framework are returned by the rest API. Are there. Data in the framework is accessed via the [@mathdroid/covid-19-api](https://github.com/mathdroid/covid-19-api) API.
 
- __Note__: _You have to install and import [request package ](https://www.npmjs.com/package/request) also in your project_.
+ __Note__: _You have to install [request package ](https://www.npmjs.com/package/request) also in your project_.
 
 ### Install (try any one)
 ```sh
